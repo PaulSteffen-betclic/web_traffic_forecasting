@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "web_traffic_forecasting"
+version = "0.1.0"
+description = ""
+authors = ["paul <paul.steff@hotmail.fr>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+hydra-core = "^1.1.0"
+pandas = "1.2.5"
+sklearn = "^0.0"
+keras = "^2.4.3"
+tensorflow = "^2.5.0"
+prophet = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+kaggle = "^1.5.12"
+jupyterlab = "^3.0.16"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
