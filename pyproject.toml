@@ -5,6 +5,8 @@ description = ""
 authors = ["paul <paul.steff@hotmail.fr>"]
 
 [tool.poetry.dependencies]
+dvc = "2.6.4"
+dagshub = "0.1.7"
 python = "^3.8"
 hydra-core = "^1.1.0"
 pandas = "1.2.5"
